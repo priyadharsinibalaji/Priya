@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Portfolio Navbar</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="Index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  
+<!-- AOS Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+<!-- skill Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  
+<body>
+
+<!-- ===== Preloader ===== -->
+<div id="preloader">
+  <video src="video/9928a06b978bb192b72207791f09e663_720w.mp4" autoplay muted loop></video>
+  <div class="loader-text">
+    <span>L</span><span>o</span><span>a</span><span>d</span>
+    <span>i</span><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>
+  </div>
+</div>
+
+<!-- ===== NavBar ===== -->
+<nav id="navbar-main">
+  <div class="logo">
+    <a href="#Home"><i class="bi bi-house-fill"></i></a>
+    <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span>
+    <span>o</span><span>l</span><span>i</span><span>o</span>
+  </div>
+
+  <div class="hamburger" id="menu-btn"><span></span><span></span><span></span></div>
+
+  <div id="navbar">
+    <video autoplay muted loop playsinline>
+      <source src="14482700_3840_2160_25fps.mp4" type="video/mp4">
+    </video>
+    <a href="#Home">Home<span></span></a>
+    <a href="#about">About Me<span></span></a>
+    <a href="#fullproject">Project<span></span></a>
+    <a href="#certificate">Certificate<span></span></a>
+    <a href="#contact">Contact<span></span></a>
+  </div>
+</nav>
+
+<!-- ===== Hero Section ===== -->
+<div id="hero-wrapper">
+  <section id="Home">
+    <video autoplay muted loop playsinline>
+      <source src="video/554ee10b052cd036ba2d01bb9f7c85db_720w.mp4" type="video/mp4">
+    </video>
+    <div id="name">
+      <h1 id="typing" class="cursor"></h1>
+      <h2 class="rotate-bottom">Front End Developer</h2>
+      <h2 class="rotate-bottom" style="transition-delay:0.5s;">UI/UX Designer</h2>
+    </div>
+ <div id="aboutbtn">
+  <a href="#about" class="liquid-btn">
+    <span>About Me</span>
+    <div class="liquid">
+      <div class="wave"></div>
+      <div class="wave wave2"></div>
+    </div>
+  </a>
+</div>
+
+    <div id="menubar">
+      <a href="#"><i class="bi bi-github"></i></a>
+      <a href="#"><i class="bi bi-envelope-fill"></i></a>
+      <a href="#"><i class="bi bi-whatsapp"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </section>
+</div>
+
+
+  <!-- About ME -->
+  <div id="body">
+    <section id="about" data-aos="flip-left" data-aos-duration="1200" data-aos-easing="ease-out-cubic">
+      <h2>About Me</h2>
+      <p>
+        I’m a 
+        <a href="UIUx/priya portfolio 12 (1)-1-compressed.pdf"><span> UI/UX Designer</span></a> and 
+        <a href="frontend.html"><span> Front-End Developer</span></a> with a strong passion for blending design and code. 
+        I specialize in creating visually appealing, accessible, and responsive interfaces that deliver 
+        seamless user experiences. With expertise in tools like Figma, HTML, CSS, and JavaScript, 
+        I bridge the gap between design vision and functional development.
+      </p>
+      <a href="Pdf/Priyaresume.pdf"><button>Download CV</button></a>
+    </section>
+  </div>
+
+
+<!-- SKillSet -->
+<div id="fullskill">
+  <div id="skills">
+    <h1 data-aos="fade-up">My Professional Skills</h1>
+    <p style="text-align:center; max-width:600px; margin-top: -30px;  color: #ffffff; font-family: 'Times New Roman', Times, serif; font-size: 20px;">
+    Here’s a brief overview of my key skills in web development and design.
+    </p>
+
+    <div class="skill-box" data-delay="0">
+      <div class="skill"><img src="Images/html.png" alt="HTML Logo">HTML</div>
+      <div class="progress-bar">
+        <div class="progress" data-percent="90"></div>
+        <div class="progress-text">0%</div>
+      </div>
+    </div>
+
+    <div class="skill-box" data-delay="100">
+      <div class="skill"><img src="Images/css.png" alt="CSS Logo">CSS</div>
+      <div class="progress-bar">
+        <div class="progress" data-percent="85"></div>
+        <div class="progress-text">0%</div>
+      </div>
+    </div>
+
+    <div class="skill-box" data-delay="200">
+      <div class="skill"><img src="Images/js.png" alt="JavaScript Logo">JavaScript</div>
+      <div class="progress-bar">
+        <div class="progress" data-percent="75"></div>
+        <div class="progress-text">0%</div>
+      </div>
+    </div>
+
+    <div class="skill-box" data-delay="300">
+      <div class="skill"><img src="Images/php.png" alt="PHP Logo">PHP</div>
+      <div class="progress-bar">
+        <div class="progress" data-percent="65"></div>
+        <div class="progress-text">0%</div>
+      </div>
+    </div>
+
+    <div class="skill-box" data-delay="400">
+      <div class="skill"><img src="Images/react.png" alt="React Logo">React JS</div>
+      <div class="progress-bar">
+        <div class="progress" data-percent="70"></div>
+        <div class="progress-text">0%</div>
+      </div>
+    </div>
+
+    <div class="skill-box" data-delay="500">
+      <div class="skill"><img src="Images/ps.png" alt="Photoshop Logo">Photoshop</div>
+      <div class="progress-bar">
+        <div class="progress" data-percent="90"></div>
+        <div class="progress-text">0%</div>
+      </div>
+    </div>
+
+    <div class="skill-box" data-delay="600">
+      <div class="skill"><img src="Images/ai.png" alt="Illustrator Logo">Illustrator</div>
+      <div class="progress-bar">
+        <div class="progress" data-percent="80"></div>
+        <div class="progress-text">0%</div>
+      </div>
+    </div>
+
+    <div class="skill-box" data-delay="700">
+      <div class="skill"><img src="Images/figma.png" alt="Figma Logo">Figma</div>
+      <div class="progress-bar">
+        <div class="progress" data-percent="75"></div>
+        <div class="progress-text">0%</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+<!-- Certificate -->
+ <section id="certificate">
+<div id="title" data-aos="fade-up">
+      <h1>CERTIFICATES</h1>
+  </div>
+
+  <div id="cards">
+      <div class="card" data-aos="fade-left">
+          <div class="card-content">
+              <h2>UI/UX DESIGNER</h2>
+              <p>I’m passionate about creating visually appealing and user-friendly designs that enhance the overall user experience.</p>
+              <a href="Pdf/Uiux.pdf">VIEW NOW</a>
+          </div>
+      </div>
+
+      <div class="card" data-aos="fade-up">
+          <div class="card-content">
+              <h2>ADV EXCEL</h2>
+              <p>I’m skilled in data analysis, formulas, charts, and automation to make data-driven decisions efficiently.</p>
+              <a href="Pdf/Excel.pdf">VIEW NOW</a>
+          </div>
+      </div>
+
+      <div class="card" data-aos="fade-right">
+          <div class="card-content">
+              <h2>FRONT END DEVELOPER</h2>
+              <p>I’m proficient in HTML, CSS, JavaScript, PHP, and React JS, creating responsive and interactive websites with clean, user-friendly designs.</p>
+              <a href="">VIEW NOW</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- Project -->
+ <section id="fullproject">
+<div id="fullpro">
+<!-- CARD 1 -->
+<div id="project">
+  <h1>
+    PROJECT
+     </h1>
+    <p>I developed this project with a focus on responsive front-end design,<br> interactive UI elements, and seamless user experience using HTML, CSS, and JavaScript.</p>
+ 
+</div>
+
+ 
+<div class="containers">
+  <div class="cards" data-aos="fade-right" data-aos-duration="1000">
+    <div class="circles">
+      <img src="Images/favicon_180.webp" alt="Milky Logo" class="logos">
+    </div>
+    <img src="Images/Parisshot.png" alt="Milky Website" class="product_imgs">
+    <div class="contents">
+      <h2>Paris</h2>
+      <p>Explore the charm and beauty of Paris with modern design inspirations.</p>
+      <a href="https://rawcdn.githack.com/priyadharsinibalaji/Paris/e49c2438a448a4da9bce7407107a40e7a450b221/Index.html">View Now</a>
+    </div>
+  </div>
+
+  <div class="text-boxs" data-aos="fade-left" data-aos-duration="1000">
+    <h2>About This Project</h2>
+    <p>
+      This section highlights my creative web design inspired by “Paris Je T’aime”.  
+      The card animation uses smooth transitions and AOS for elegant entry effects.  
+      Hover over the card to reveal interactive visuals and explore project details.
+    </p>
+  </div>
+</div>
+
+<!-- CARD 2 -->
+<div class="containers">
+  <div class="cards" data-aos="fade-right" data-aos-duration="1000">
+    <div class="circles">
+      <img src="Images/service-1.jpg" alt="Milky Logo" class="logos">
+    </div>
+    <img src="Images/Milkyshot.png" alt="Tokyo Website" class="product_imgs">
+    <div class="contents">
+      <h2>Milky</h2>
+      <p>A modern responsive website built with HTML, CSS, and JavaScript showcasing animations and interactivity</p>
+      <a href="https://rawcdn.githack.com/priyadharsinibalaji/Milky/0507fa0b335748a77ed17e71fe2829e0e5063859/Index.html">View Now</a>
+    </div>
+  </div>
+
+  <div class="text-boxs" data-aos="fade-left" data-aos-duration="1000">
+    <h2>About This Project</h2>
+    <p>
+     “Milky” is a modern and minimalistic web design concept inspired by smooth pastel tones and fluid motion effects.  
+  It showcases a clean product interface focused on simplicity, visual balance, and a delightful user experience.  
+  Every animation is crafted to feel natural and interactive.
+    </p>
+  </div>
+</div>
+
+
+<!-- CARD 3 -->
+<div class="containers">
+  <div class="cards" data-aos="fade-right" data-aos-duration="1000">
+    <div class="circles">
+      <img src="Images/pizza 11.jpg" alt="Milky Logo" class="logos">
+    </div>
+    <img src="Images/FeaneShot.png" alt="Tokyo Website" class="product_imgs">
+    <div class="contents">
+      <h2>FEANE</h2>
+      <p>Discover delicious meals crafted with love and quality ingredients. Experience the taste that brings joy to every bite.</p>
+      <a href="https://rawcdn.githack.com/priyadharsinibalaji/Feane-Food/2c80c6685b171d316626c4d7bde657b333ed7918/Index.html">View Now</a>
+    </div>
+  </div>
+
+  <div class="text-boxs" data-aos="fade-left" data-aos-duration="1000">
+    <h2>About This Project</h2>
+    <p>
+    FEANE Food is a modern, interactive website designed to showcase delicious meals. Built with HTML, CSS, JavaScript, and PHP, it features smooth animations, user-friendly navigation, and a visually appealing layout to enhance the dining experience online.
+    </p>
+  </div>
+</div>
+
+<!-- CARD 4 -->
+<div class="containers">
+  <div class="cards" data-aos="fade-right" data-aos-duration="1000">
+    <div class="circles">
+      <img src="Images/letter p for panther vintage logo design, vector graphic symbol icon illustration creative idea.jpg" alt="Milky Logo" class="logos">
+    </div>
+    <img src="Images/Portfolioshot.png" alt="Tokyo Website" class="product_imgs">
+    <div class="contents">
+      <h2>PORTFOLIO</h2>
+<p>Showcasing my creative web and UI/UX projects in a clean, interactive, and responsive layout.  
+Explore my design skills, animations, and modern front-end development work.</p>
+      <a href="https://rawcdn.githack.com/priyadharsinibalaji/Portfolio/e0a6ab133dc179b5a7e30081627d93bd99a32431/Index.html">View Now</a>
+    </div>
+  </div>
+
+  <div class="text-boxs" data-aos="fade-left" data-aos-duration="1000">
+    <h2>About This Project</h2>
+ <p>
+      This project highlights my personal portfolio showcasing web design, UI/UX projects, and interactive elements.  
+      It demonstrates responsive layouts, smooth animations, and a professional front-end development workflow.
+    </p>
+  </div>
+</div>
+
+</div>
+ </section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Let's create something amazing together! Feel free to reach out for collaborations, ideas, or projects.</p>
+
+    <div class="contact-container">
+      <!-- Info Box -->
+      <div class="contact-box contact-info">
+        <h1>Get In Touch</h1>
+        <div id="iconss">
+          <p><i class="bi bi-envelope-fill"></i><strong>Email:</strong> priyadharsini.balaji.k@gmail.com</p>
+          <p><i class="bi bi-telephone-fill"></i><strong>Phone:</strong> +91 93455XXXXX</p>
+          <p><i class="bi bi-geo-alt-fill"></i><strong>Location:</strong> Kumbakonam, Tamil Nadu</p>
+        </div>
+
+        <!-- Skill Buttons -->
+        <div class="skills">
+          <a href="Images/priya portfolio 12 (1).pdf">UI/UX Design</a>
+          <a href="frontend.html">Frontend Development</a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="info-social">
+          <a href="mailto:priyadharsini.balaji.k@gmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/priyadharsinibalaji" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Form Box -->
+      <form class="contact-box contact-form" method="post" action="#">
+        <h1>Send a Message</h1>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+<!-- Footer Contect -->
+  <!-- ===== FOOTER LINE ===== -->
+  <hr class="footer-line">
+
+  <!-- ===== FOOTER SECTION ===== -->
+  <footer>
+    <div class="footer-container">
+
+       <br>
+      <p>UI/UX Designer & Frontend Developer passionate about creating beautiful and functional web experiences.</p>
+
+
+
+      <!-- Social Icons -->
+      <div class="footer-social">
+        <a href="mailto:priyadharsini.balaji.k@gmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/yourusername" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+
+      <p class="copyright">© 2025 Priyadharshini | Designed with ❤️ and creativity.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!-- Custom Cursor Elements -->
+  <div class="cursor-ring" id="ring"></div>
+  <div class="cursor-dot" id="dot"></div>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- AOS Library JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init({
+          duration: 1000, // animation duration
+          once: true // only animate once
+      });
+  </script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
